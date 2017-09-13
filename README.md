@@ -1,5 +1,8 @@
 # Kiran_Boot_Wksp
 
+ProblemsAndSolutions
+
+
 Problem: 404 on http://localhost:8080/hello
 Sol: The Controller package should be under SpringBootApplication package
 Read here: http://stackoverflow.com/questions/31318107/spring-boot-cannot-access-rest-controller-on-localhost-404
