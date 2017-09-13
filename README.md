@@ -1,6 +1,6 @@
 # Kiran_Boot_Wksp
 
-ProblemsAndSolutions
+ProblemsAndSolutions   (-web)
 
 
 Problem: 404 on http://localhost:8080/hello
@@ -12,7 +12,7 @@ sol: added port http://localhost:8080/hello
 Make sure to add port :8080
 
 
-SpringBootApiRunningOnCustomPort
+SpringBootApiRunningOnCustomPort  (-web)
 
 Problem:
 
