@@ -51,3 +51,17 @@ problem: by default /health endpoint works for other to work you need to add
 
 
 management.security.enabled=false in the application.properties and restart
+
+
+**************************
+
+ApiReloadsAutomaticallyWithDevTools  (-web, -Actuator, -DevTools)
+
+
+With help of DevTools there is no need to Re-Deploy the api. 
+
+
+Api ges reloaded withe new changes automatically
+
+
+After making the code changes Ctrl + s and Ctrl + b
