@@ -11,14 +11,15 @@ Problem: When tried with this http://localhost/hello got localhost refused to co
 sol: added port http://localhost:8080/hello
 Make sure to add port :8080
 
+**************************
 
 SpringBootApiRunningOnCustomPort  (-web)
 
 Problem:
 
-***************************
+*
 APPLICATION FAILED TO START
-***************************
+*
 
 Description:
 
@@ -33,17 +34,20 @@ Solution:
 
 server.port=9999  (added this in the application.properties) then you can have same api running on multiple ports in the local
 
-
+**************************
 
 SpringBootWithActuator (-web and -Actuator)
 
 Problem: Application was not even starting and /health call was not working
+
 
 Solution: -Actuator to work you nee -web also (Earelier I just had Actuator alone so server was not even starting)
 
 
 How i found: when added the Controller class, I was unable to import @RestController and @RequestMappings 
 
+
 problem: by default /health endpoint works for other to work you need to add
+
 
 management.security.enabled=false in the application.properties and restart
