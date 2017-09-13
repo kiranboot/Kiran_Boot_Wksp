@@ -27,5 +27,5 @@ Verify the connector's configuration, identify and stop any process that's liste
 
 
 Solution:
-server.port=9999  (added this in the application.properties)
-then you can have same api running on multiple ports in the local
+
+server.port=9999  (added this in the application.properties) then you can have same api running on multiple ports in the local
