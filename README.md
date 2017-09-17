@@ -65,3 +65,30 @@ Api ges reloaded withe new changes automatically
 
 
 After making the code changes Ctrl + s and Ctrl + b
+
+
+**************************
+
+Produce and Consume SOAP webservice using Spring Boot
+https://www.javacodegeeks.com/2016/07/writing-consuming-soap-webservice-spring.html
+
+**************************
+
+
+
+**************************
+
+
+**************************
+
+
+**************************
+
+
+**************************
+
+
+**************************
+
+
+**************************
