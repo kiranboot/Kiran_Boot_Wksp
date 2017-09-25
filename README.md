@@ -83,7 +83,7 @@ Add the below dependencies or watch the below or watch this to understand https:
 
 
 
-   <!--
+Get the below snippet in edit mode readme.md is not supportive
    
    
 <plugin>
@@ -108,7 +108,7 @@ Add the below dependencies or watch the below or watch this to understand https:
 
 
 
--->
+
 
 go to project location
 
