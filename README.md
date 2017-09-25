@@ -83,6 +83,9 @@ Add the below dependencies or watch the below or watch this to understand https:
 
 
 
+   <!--
+   
+   
 <plugin>
     <groupId>com.spotify</groupId>
     <artifactId>docker-maven-plugin</artifactId>
@@ -104,6 +107,8 @@ Add the below dependencies or watch the below or watch this to understand https:
 </plugin>
 
 
+
+-->
 
 go to project location
 
