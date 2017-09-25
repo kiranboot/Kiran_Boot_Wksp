@@ -73,7 +73,57 @@ Produce and Consume SOAP webservice using Spring Boot
 https://www.javacodegeeks.com/2016/07/writing-consuming-soap-webservice-spring.html
 
 **************************
+BuildAndRunDockerImageUsingMavenPlugin
 
+
+Create a controller with a sample Get Endpoint
+
+
+Add the below dependencies or watch the below or watch this to understand https://www.youtube.com/watch?v=0nHSgo4YShU  
+
+
+
+<plugin>
+    <groupId>com.spotify</groupId>
+    <artifactId>docker-maven-plugin</artifactId>
+    <version>0.4.5</version>
+    <configuration>
+        <imageName>kirankumarimage</imageName>
+        <baseImage>java</baseImage>
+        <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+        <!-- copy the service's jar file from target into the root directory 
+            of the image -->
+        <resources>
+            <resource>
+                <targetPath>/</targetPath>
+                <directory>${project.build.directory}</directory>
+                <include>${project.build.finalName}.jar</include>
+            </resource>
+        </resources>
+    </configuration>
+</plugin>
+
+
+
+go to project location
+
+
+1. mvn clean
+
+
+2. mvn -U install
+
+
+3. mvn package
+
+
+4. mvn docker:build (make sure image is created)
+
+
+5. dokcer images
+
+
+6. docker run -p 8080:8080 -t kirankumarimage
 
 
 **************************
