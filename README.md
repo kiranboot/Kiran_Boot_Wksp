@@ -125,6 +125,12 @@ go to project location
 4. mvn docker:build (make sure image is created)
 
 
+
+on windows-10 go to docker settings and enable the Expose daemon on tcp://localhost:2375 without TLS
+
+
+
+
 5. dokcer images
 
 
