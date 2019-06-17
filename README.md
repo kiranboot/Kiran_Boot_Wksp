@@ -133,6 +133,41 @@ go to project location
 
 7. docker run -p 8080:8080 -t kirankumarimage
 
+**************************
+CromeScore -- Create a docker image of a spring boot application
+
+pre req:
+1. mc
+2. mi
+3. Make boot app works locally
+
+pwd=/Kiran_Boot_Wksp/CromeScore (where Dockerfile is present)
+1. create image:  
+docker build -t kiranreddyamk/cromescore .
+
+2. docker images
+
+3. create container 
+docker run -p 9090:8080 kiranreddyamk/cromescore 
+
+4. docker ps -a
+
+5. PVT using postman 
+http://localhost:9090/crome/score
+
+**************************
+
+
+**************************
+
+
+**************************
+
+
+**************************
+
+
+**************************
 
 **************************
 
