@@ -134,6 +134,9 @@ go to project location
 7. docker run -p 8080:8080 -t kirankumarimage
 
 **************************
+
+https://www.youtube.com/watch?v=UwmrvkC8cM4&list=PLO0KWyajXMh4fGMvAw1yQ1x7mWayRcmX3&index=18
+
 CromeScore -- Create a docker image of a spring boot application
 
 pre req:
@@ -158,6 +161,57 @@ http://localhost:9090/crome/score
 **************************
 
 
+https://www.youtube.com/watch?v=1fnPCWBikYQ&feature=youtu.be
+
+CromeScore -- Create a docker image of a spring boot application and deploy in aws ec2
+
+pre req:
+Follow previous steps
+
+1. sudo yum update -y (updating the ec2 instance)
+
+2. sudo yum install docker (install docker in ec2)
+
+3. sudo service docker start (start the docker)
+
+4. sudo docker run -p 80:8080 kiranreddyamk/hello-world-java-docker (this will pull the image and start container)
+   Note: if you don't give port then spring web app won't work
+
+5. suod docker ps -a (you should see container up and running)
+
+6. PVT using postman - get 750 o/p 
+   http://ec2-35-173-221-202.compute-1.amazonaws.com/crome/score (public DNS will change after ec2 restart)
+
+   PVT using IP
+   http://35.173.221.202/crome/score (public IP will change after ec2 restart)
+
+
+**************************
+Default ports
+
+1. http = 80
+
+2. https = 443
+
+3. ssh = 22
+
+4. tomcat server default port = 8080
+
+5. spring boot app default port = 8080 
+
+
+
+
+
+**************************
+
+
+
+**************************
+
+
+**************************
+
 **************************
 
 
@@ -169,19 +223,14 @@ http://localhost:9090/crome/score
 
 **************************
 
-**************************
-
 
 **************************
+TIPS
 
+spring boot startup logs will show on which port app.jar has been started.
 
-**************************
-
-
-**************************
-
-
-**************************
+: Tomcat started on port(s): 8080 (http) with context path ''
+: Started CromeScoreApplication in 2.106 seconds (JVM running for 2.519)
 
 
 **************************
