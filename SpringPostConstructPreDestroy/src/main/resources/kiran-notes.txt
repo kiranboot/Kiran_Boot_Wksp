@@ -1,0 +1,10 @@
+We can use 
+
+@Component  @Service  @Repository at the class level
+for the below Spring bean life cycle hooks
+@PostConstruct or @PreDestroy
+
+
+@PostConstruct gets called after the Default Constructor.
+@PreDestroy gets called during the Shutdown.
+
