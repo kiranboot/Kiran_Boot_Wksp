@@ -1,8 +1,6 @@
-We can use 
+We can use the Spring bean life cycle hooks @PostConstruct and @PreDestroy in the classes which has
 
-@Component  @Service  @Repository at the class level
-for the below Spring bean life cycle hooks
-@PostConstruct or @PreDestroy
+@RestController @Component  @Service  @Repository at the class level
 
 
 @PostConstruct gets called after the Default Constructor.
